@@ -1,75 +1,41 @@
-<html><head><title>evokzh</title></head>
+<html><head><title>evokzh</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
+</head>
 <body>
-      <body onload="startTime()"> <style>
-           body {
-               background-color: black;
-           }
-           
-       </style>
-   
-       </center></font>
-     <center><TABLE WIDTH="50%">
-         <tr>
-             <td>
-            <font color=white><center>Welcome back, Stranger, today is <script type="text/javascript"> var today = new Date();
-                var dd = String(today.getDate()).padStart(2, '0');
-                var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-                var yyyy = today.getFullYear();
-                
-                today = mm + '/' + dd + '/' + yyyy;
-                document.write(today);
-                    </script>
-         </td>
-         </td>
-        
-        
-        <TR><TD><PRE><center>   
-
-<font color=blue>                                     `888                   `888        </font>   
-<font color=red>   .ooooo.  oooo    ooo  .ooooo.   888  oooo    oooooooo  888 .oo.   </font>
-<font color=green> d88' `88b  `88.  .8'  d88' `88b  888 .8P'    d'""7d8P   888P"Y88b  </font>
-<font color=orange>888ooo888   `88..8'   888   888  888888.       .d8P'    888   888  </font>
-<font color=purle> 888    .o    `888'    888   888  888 `88b.   .d8P'  .P  888   888  </font>
-<font color=yellow>`Y8bod8P'     `8'     `Y8bod8P' o888o o888o d8888888P  o888o o888o</font>
-                                           
-</center>  </PRE></td></TR>
-
-<tr>
-    
-        <td>
-         <pre><center><h3>
-             <font color=#8800c6>Menu: </font>
-            <font color="Turquoise"> | About [1]</font>
-            <font color=orange>| Projects [2]</font>              
-            <font color=pink> | Contact [3]</font>                     
-         </h3></pre></center>
-        </td>
-        <td>
-      
+      <style>
+          body {
+              background-color: black;
+          }
+      </style>
+   <pre>
+    <font color=blue>                                     `888                   `888     </font>   
+    <font color=red>   .ooooo.  oooo    ooo  .ooooo.   888  oooo    oooooooo  888 .oo.   </font>
+    <font color=green> d88' `88b  `88.  .8'  d88' `88b  888 .8P'    d'""7d8P   888P"Y88b  </font>
+    <font color=orange>888ooo888   `88..8'   888   888  888888.       .d8P'    888   888  </font>
+    <font color=purle> 888    .o    `888'    888   888  888 `88b.   .d8P'  .P  888   888  </font>
+    <font color=yellow>`Y8bod8P'     `8'     `Y8bod8P' o888o o888o d8888888P  o888o o888o</font></pre>
   
-</tr>
-
-<tr><td>
-    <p style="background-color:blue; color:white;">Design by Adrian A.      |   Connected       |   Login Time: <div id="txt"></div></p>
-</td></tr>
-
-</TABLE></center>  
-<script>
-function startTime() {
-  var today = new Date();
-  var h = today.getHours();
-  var m = today.getMinutes();
-  var s = today.getSeconds();
-  m = checkTime(m);
-  s = checkTime(s);
-  document.getElementById('txt').innerHTML =
-  h + ":" + m + ":" + s;
-  var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
-  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-  return i;
-}
-</script>
+               <h2> <script>
+                    $('body').terminal({
+                        hello: function(what) {
+                            this.echo('Hello, ' + what +
+                                      '. Wellcome to this website.');
+                        },
+                        cat: function() {
+                             this.echo($('<img src="https://placekitten.com/408/287">'));
+                        },
+                       help: function() {
+                             this.echo($('<br>about<br>projects<br>contact<br>cat<br>hello yourname<br>clear'));
+                        },
+                       about: function() {
+                             this.echo($('<br><font color=green>Adrian</font> "evokzh" <font color=green>A,</font><br>-----------------<br><font color=green>Location</font>: Bucharest<br><font color=green>Actual Job</font>: Gametester@EA<br><font color=green>Studies</font>: Mechatronics, Robotics & AI @ Politehnic University of Bucharest, ISB<br><font color=green>Max nosleep</font>: 2 days, 00 hours, 00 mins<br><font color=green>Hobbies</font>: Devices, Video Games, Gym, Walking, Swimming<br><font color=green>Aptitudes</font>: Python (AI bby <3), C/C++, Blender, Android Development, Unity, Unreal Engine 4, Godot, C# (Low), Java(Low), Autocad, HTML/CSS, JavaScript (Low), GNU/Linux <3, Game Dev (Level Design, Game Design)<br><font color=green>Os used</font>: Debian Testing + Kde<br><br><font color=green>Brain</font>: Intel Pentium 4 (2) @ 2.000GHz<br><font color=green>View</font>: Nvidia RTX 2800<br><font color=green>Memory</font>: ?????MiB / 1MiB'));
+                        },
+                    }, {
+                        greetings: 'Welcome to the evokzh.github.io for command lits type help'
+                    });
+                    </script></h2>
+        
 </body>
 </html>
