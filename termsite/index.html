@@ -1,0 +1,57 @@
+<html><head><title>evokzh</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
+</head>
+<body>
+      <style>
+          body {
+              background-color: black;
+              zoom: 200%;
+              }
+            
+      </style>
+   <pre>
+    <font color=blue>                                 `888                   `888     </font>   
+    <font color=red>   .ooooo.  oooo    ooo  .ooooo.   888  oooo    oooooooo  888 .oo.   </font>
+    <font color=green> d88' `88b  `88.  .8'  d88' `88b  888 .8P'    d'""7d8P   888P"Y88b  </font>
+    <font color=orange>888ooo888   `88..8'   888   888  888888.       .d8P'    888   888  </font>
+    <font color=purle> 888    .o    `888'    888   888  888 `88b.   .d8P'  .P  888   888  </font>
+    <font color=yellow>`Y8bod8P'     `8'     `Y8bod8P' o888o o888o d8888888P  o888o o888o</font></pre>
+  
+                <script>
+                    $('body').terminal({
+                        hello: function(what) {
+                            this.echo('Hello, ' + what +
+                                      '. Wellcome to this website.');
+                        },
+                        cat: function() {
+                             this.echo($('<img src="https://placekitten.com/408/287">'));
+                        },
+
+                        meme: function() {
+                             this.echo($('<img src="memes/meme.jpg">'));
+                        },
+
+                        contact: function() {
+                             this.echo($('<li>Twitter: EvoKzh</li>'));
+                        },
+                       help: function() {
+                             this.echo($('<li>about</li><li>projects</li><li>contact</li><li>cat</li><li>hello yourname</li><li>clear</li><li>version</li>'));
+                        },
+                         version: function() {
+                             this.echo($('<li>CrackOs v0.1 on a potato PC</li>'));
+                        },
+                       about: function() {
+                             this.echo($('<br><font color=green>Adrian</font> "evokzh" <font color=green>A.</font><br>-----------------<br><font color=green>Location</font>: Bucharest<br><font color=green>Actual Job</font>: Gametester@EA<br><font color=green>Studies</font>: Mechatronics, Robotics & AI @ Politehnic University of Bucharest, ISB<br><font color=green>Max nosleep</font>: 2 days, 00 hours, 00 mins<br><font color=green>Hobbies</font>: Devices, Video Games, Gym, Walking, Swimming<br><font color=green>Aptitudes</font>: Python (AI bby <3), C/C++, Blender, Android Development, Unity, Unreal Engine 4, Godot, C# (Low), Java(Low), Autocad, HTML/CSS, JavaScript (I hope it die), GNU/Linux <3, Game Dev (Level Design, Game Design)<br><font color=green>Os used</font>: Debian Testing + Gnome<br><font color=green>Brain</font>: Intel Pentium 4 (2) @ 2.000GHz<br><font color=green>View</font>: Nvidia RTX 2800<br><font color=green>Memory</font>: -10MiB / 1MiB<br>'));
+                        },
+                        projects: function() {
+                             this.echo($('<li><a href=/Wolf3D>Wolf3D</a></li><li><a href=/alzena>Alzena</a></li><li><a href=/e-learning>E-Learning</a></li><li>This Website</li>'));
+                        },
+                    }, {
+                        greetings: '>Welcome to the evokzh.github.io for commands list type help'
+                    });
+                    </script>
+        
+</body>
+</html>
