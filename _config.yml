@@ -1,14 +1,16 @@
 # Site settings
-title: Pudhina
+title: evokzh
 description: >
-  A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
+  Programmer - Game Dev - Designer - Overthinker
+
+
 
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://evokzh.github.io" # the base hostname & protocol for your site
 
 author:
-  fullname: Pudhina
-  github: github
+  fullname: evokzh
+  github: evokzh
   linkedin: linkedin
   email: example@email.com
 
