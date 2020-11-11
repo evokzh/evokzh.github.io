@@ -13,7 +13,7 @@ Hi, my name is Adrian, I am a student of @ Politehnica in Bucharest, where my fi
 
 ### SKILLS
 
-Python, C/C++, Blender, Android Development, Unity, Unreal Engine 4, Godot, C# for Unity3D, QtCreator, Autocad, HTML/CSS, GNU/Linux, Game Dev 
+Python, C/C++, Blender, Android Development, Unity, Unreal Engine 4, Godot, C# for Unity3D, QtCreator, Autocad, MATLAB, MATHCAD, HTML/CSS, GNU/Linux, Game Dev 
 
 
 ### MORE
