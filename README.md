@@ -1,5 +1,6 @@
-# Athena Docs
+# evokzh Docs
 Made with Starlight(Astro).
+[![Deploy to GitHub Pages](https://github.com/evokzh/evokzh.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/evokzh/evokzh.github.io/actions/workflows/deploy.yml)
 
 ## 🚀 Project Structure
 
