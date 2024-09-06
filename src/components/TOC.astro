@@ -5,24 +5,12 @@ import Logo from "./Logo.astro";
 import { Image } from "astro:assets";
 
 const logoData = [
-  //{ img: "/stackBlitz.svg", link: "https://stackblitz.com" },
+  { img: "/archlinux.svg", link: "https://archlinux.org" },
   { img: "/microsoft.svg", link: "https://microsoft.com" },
-  //{ img: "/labs.svg", link: "https://labs.com" },
-  { img: "/caido.svg", link: "https://caido.io" },
-  { img: "/astro.svg", link: "https://astro.build/" },
-  { img: "/parrot-ctfs.svg", link: "https://parrot-ctfs.com/" },
-  //{ img: "/storyblok.png", link: "https://storyblok.com" },
-  //{ img: "/bit.svg", link: "https://bit.dev" },
-  //{ img: "/tailwindLabs.svg", link: "https://tailwindcss.com" },
-  //{ img: "/divriots.png", link: "https://divriots.com" },
-  //{ img: "/prefectIO.svg", link: "https://prefect.io" },
-  //{ img: "/jetbrains.svg", link: "https://jetbrains.com" },
-  //{ img: "/mux.svg", link: "https://mux.com" },
-  //{ img: "/remix.svg", link: "https://remix.run" },
-  //{ img: "/nx.svg", link: "https://nx.dev" },
-  //{ img: "/transloadit.svg", link: "https://transloadit.com" },
-  //{ img: "/huly.svg", link: "https://huly.com" },
-  //{ img: "/handsontable.svg", link: "https://handsontable.com" },
+  { img: "/apple.svg", link: "https://apple.com" },
+  { img: "/samsung.svg", link: "https://samsung.io" },
+  { img: "/fsf.svg", link: "https://fsf.org" },
+  { img: "/lf.svg", link: "https://www.linuxfoundation.org/" },
 ];
 ---
 
@@ -31,10 +19,10 @@ const logoData = [
   <a class="athena-card" target="_blank">
     <Logo {...Astro.props} />
     <span
-      ><p class="extra-info">Beyond Fast</p><p class="heading">Athena OS</p><p
+      ><p class="extra-info">Arch linux</p><p class="heading">Monadi</p><p
         class="extra-info"
       >
-        Learn Cyber
+        based distro
       </p></span
     ></a
   >
