@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://athenaos.org/sitemap-index.xml
