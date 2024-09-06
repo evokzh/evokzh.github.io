@@ -14,8 +14,8 @@ export default defineConfig({
         PageTitle: "./src/components/CustomPageTitle.astro"
       },
       logo: {
-        light: '',
-        dark: '',
+        light: '/src/assets/athena-light.svg',
+        dark: '/src/assets/athena-dark.svg',
       },
       customCss: process.env.NO_GRADIENTS ? [	'./src/styles/_global.css'] : ['./src/styles/landing.css', 	'./src/styles/_global.css'],
       social: {
