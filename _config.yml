@@ -34,14 +34,17 @@ navbar-monadi:
     - Download: "Download"
     - Specifications: "Specifications"
     - FAQ: "FAQ"
+    - Packages: "Packages"
+    - Development: "Development"
   Community:
     - Forum: "Forum"
     - Blog: "blog"
     - Help: "Help"
     - Wiki: "Wiki"
-    - Contact: "Contact"
+    - Documentation: "Documentation"
   Enterprise:
     - Partners: "Partners"
+    - Education: "Education"
     - Support: "Support"
     - Careers: "Careers"
   
