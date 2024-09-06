@@ -32,14 +32,12 @@ navbar-monadi:
     - Games: "Games"
   Obtain Monadi:
     - Download: "Download"
-    - Specifications: "Specifications"
     - FAQ: "FAQ"
     - Packages: "Packages"
     - Development: "Development"
   Community:
     - Forum: "Forum"
     - Blog: "blog"
-    - Help: "Help"
     - Wiki: "Wiki"
     - Documentation: "Documentation"
   Enterprise:
