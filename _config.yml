@@ -205,7 +205,7 @@ footer-hover-col: "#0085A1"
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
-#utterances:
+utterances:
  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
  issue-term: title   # Mapping between blog posts and GitHub issues
  theme: github-light # Utterances theme
