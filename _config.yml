@@ -23,6 +23,27 @@ navbar-links:
   Products:
     - Monadi: "monadi"
   About: "aboutme"
+
+navbar-monadi:
+  About Monadi: 
+    - Features: "features"
+    - Security: "Security"
+    - Applications: "Applications"
+    - Games: "Games"
+  Obtain Monadi:
+    - Download: "Download"
+    - Specifications: "Specifications"
+    - FAQ: "FAQ"
+  Community:
+    - Forum: "Forum"
+    - Blog: "blog"
+    - Help: "Help"
+    - Wiki: "Wiki"
+    - Contact: "Contact"
+  Enterprise:
+    - Partners: "Partners"
+    - Support: "Support"
+    - Careers: "Careers"
   
 
 ################

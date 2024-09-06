@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Monadi
+layout: base
+title: MonadiOS
 ---
 
 My name is Inigo Montoya. I have the following qualities:
